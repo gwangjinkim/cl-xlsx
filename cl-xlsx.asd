@@ -14,4 +14,4 @@
   :perform (load-op :after (op c)
              (format t "NOTICE: cl-xlsx will not be further developed. Please use cl-excel instead.~%")
              (format t "cl-excel allows you to read & write your tables from/into Excel sheets! ~%")
-             (format t "For installation, see the instructions in https://github.com/gwangjinkim/cl-excel . ~%"))
+             (format t "For installation, see the instructions in https://github.com/gwangjinkim/cl-excel . ~%")))
